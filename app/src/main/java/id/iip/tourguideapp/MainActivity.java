@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity
             ft.commit();
         } else if (id == R.id.nav_manage) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.main_fragment, new EventFragment(), EventFragment.class.getSimpleName());
+            ft.replace(R.id.main_fragment, new HospitalFragment(), HospitalFragment.class.getSimpleName());
             ft.commit();
         }
 

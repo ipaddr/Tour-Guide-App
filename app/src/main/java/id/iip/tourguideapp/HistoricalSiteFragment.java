@@ -31,11 +31,11 @@ public class HistoricalSiteFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         models = new ArrayList<>();
-        models.add(new Model("Bagindo Azizchan Statue", R.drawable.bagindo_aziz));
-        models.add(new Model("Imam Bonjol Statue", R.drawable.imam_bonjol));
-        models.add(new Model("Malin Kundang Statue", R.drawable.malin_kundang));
-        models.add(new Model("Kamang War Statue", R.drawable.perang_kamang));
-        models.add(new Model("BMKG Statue", R.drawable.bmkg));
+        models.add(new Model(getString(R.string.Bagindo_Azizchan_Statue), R.drawable.bagindo_aziz));
+        models.add(new Model(getString(R.string.Imam_Bonjol_Statue), R.drawable.imam_bonjol));
+        models.add(new Model(getString(R.string.MalinKundangStatue), R.drawable.malin_kundang));
+        models.add(new Model(getString(R.string.KamangWarStatue), R.drawable.perang_kamang));
+        models.add(new Model(getString(R.string.BMKGStatue), R.drawable.bmkg));
     }
 
     @Nullable

@@ -31,11 +31,11 @@ public class EventFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         models = new ArrayList<>();
-        models.add(new Model("Tour de Singkarak", R.drawable.tour_singkarak));
-        models.add(new Model("Expo Pariaman", R.drawable.expo_pariaman));
-        models.add(new Model("Invest Art", R.drawable.invest_art));
-        models.add(new Model("Padang Fair", R.drawable.padang_fair));
-        models.add(new Model("Run Tiger", R.drawable.run_tiger));
+        models.add(new Model(getString(R.string.tour_de_singkarak), R.drawable.tour_singkarak));
+        models.add(new Model(getString(R.string.expo_pariaman), R.drawable.expo_pariaman));
+        models.add(new Model(getString(R.string.invest_art), R.drawable.invest_art));
+        models.add(new Model(getString(R.string.padang_fair), R.drawable.padang_fair));
+        models.add(new Model(getString(R.string.run_tiger), R.drawable.run_tiger));
     }
 
     @Nullable

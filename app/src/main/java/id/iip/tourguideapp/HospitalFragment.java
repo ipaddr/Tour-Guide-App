@@ -30,11 +30,11 @@ public class HospitalFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         models = new ArrayList<>();
-        models.add(new Model("Hospital M Djamil", R.drawable.rs_djamil));
-        models.add(new Model("Hospital RSUD Padang Panjang", R.drawable.rs_pp2));
-        models.add(new Model("Hospital BMC", R.drawable.rs_bmc));
-        models.add(new Model("Hospital Ibnu Sina", R.drawable.rs_ibnu));
-        models.add(new Model("Hospital Selaguri", R.drawable.rs_selaguri));
+        models.add(new Model(getString(R.string.HospitalMDjamil), R.drawable.rs_djamil));
+        models.add(new Model(getString(R.string.HospitalRSUDPadangPanjang), R.drawable.rs_pp2));
+        models.add(new Model(getString(R.string.HospitalBMC), R.drawable.rs_bmc));
+        models.add(new Model(getString(R.string.HospitalIbnuSina), R.drawable.rs_ibnu));
+        models.add(new Model(getString(R.string.HospitalSelaguri), R.drawable.rs_selaguri));
     }
 
     @Nullable

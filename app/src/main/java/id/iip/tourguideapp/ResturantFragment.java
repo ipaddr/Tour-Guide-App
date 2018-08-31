@@ -31,10 +31,10 @@ public class ResturantFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         models = new ArrayList<>();
-        models.add(new Model("Lamun Ombak", R.drawable.lamun_ombak));
-        models.add(new Model("Hayuda Martabak", R.drawable.hayuda));
-        models.add(new Model("Sate Mak Syukur", R.drawable.syukur));
-        models.add(new Model("Los Lambuang", R.drawable.los_lambuang));
+        models.add(new Model(getString(R.string.LamunOmbak), R.drawable.lamun_ombak));
+        models.add(new Model(getString(R.string.HayudaMartabak), R.drawable.hayuda));
+        models.add(new Model(getString(R.string.SateMakSyukur), R.drawable.syukur));
+        models.add(new Model(getString(R.string.LosLambuang), R.drawable.los_lambuang));
         models.add(new Model("Cafe Karambia", R.drawable.karambia));
     }
 

@@ -6,4 +6,33 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Event Fragment -->
+    <string name="tour_de_singkarak">Tour de Singkarak</string>
+    <string name="expo_pariaman">Expo Pariaman</string>
+    <string name="invest_art">Invest Art</string>
+    <string name="padang_fair">Padang Fair</string>
+    <string name="run_tiger">Run Tiger</string>
+
+    <!-- Historical Fragment -->
+    '<string name="Bagindo_Azizchan_Statue">Bagindo Azizchan Statue</string>
+    <string name="Imam_Bonjol_Statue">Imam Bonjol Statue</string>
+    <string name="MalinKundangStatue">Malin Kundang Statue</string>
+    <string name="KamangWarStatue">Kamang War Statue</string>
+    <string name="BMKGStatue">BMKG Statue</string>
+
+    <!-- Hospital Fragment -->
+    <string name="HospitalMDjamil">Hospital M Djamil</string>
+    <string name="HospitalRSUDPadangPanjang">Hospital RSUD Padang Panjang</string>
+    <string name="HospitalBMC">Hospital BMC</string>
+    <string name="HospitalIbnuSina">Hospital Ibnu Sina</string>
+    <string name="HospitalSelaguri">Hospital Selaguri</string>
+
+    <!-- Restaurant Fragment -->
+    <string name="LamunOmbak">Lamun Ombak</string>
+    <string name="HayudaMartabak">Hayuda Martabak</string>
+    <string name="SateMakSyukur">Sate Mak Syukur</string>
+    <string name="LosLambuang">Los Lambuang</string>
+    <string name="CafeKarambia">Cafe Karambia</string>
+
 </resources>
