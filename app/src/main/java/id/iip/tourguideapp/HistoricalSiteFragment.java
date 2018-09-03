@@ -22,11 +22,6 @@ public class HistoricalSiteFragment extends Fragment {
 
     public HistoricalSiteFragment(){}
 
-    public static HistoricalSiteFragment newInstance(){
-        HistoricalSiteFragment hsf = new HistoricalSiteFragment();
-        return hsf;
-    }
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

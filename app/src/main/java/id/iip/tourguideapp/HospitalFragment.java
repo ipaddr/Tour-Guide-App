@@ -21,11 +21,6 @@ public class HospitalFragment extends Fragment {
 
     public HospitalFragment(){}
 
-    public static HospitalFragment newInstance(){
-        HospitalFragment hf = new HospitalFragment();
-        return hf;
-    }
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -22,11 +22,6 @@ public class ResturantFragment extends Fragment {
 
     public ResturantFragment(){}
 
-    public static ResturantFragment newInstance(){
-        ResturantFragment rf = new ResturantFragment();
-        return rf;
-    }
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
